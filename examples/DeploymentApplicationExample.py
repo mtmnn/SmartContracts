@@ -11,7 +11,7 @@ from algosdk import account, mnemonic, logic
 from algosdk.v2client import algod
 from pyteal import *
 
-# user declared account mnemonics
+# User declared account mnemonics
 creator_mnemonic = "purpose day enable vacant donkey wide pave ticket beauty wide perfect issue fury random nurse avocado marine margin axis mutual pet giraffe maple absent market"
 # user declared algod connection parameters. Node must have EnableDeveloperAPI set to true in its config
 algod_address = 'http://localhost:4001'
